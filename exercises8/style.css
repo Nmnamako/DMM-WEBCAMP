@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list{
+  margin:0 auto;
+  width:960px;
+  padding:50px 0;
+}
+
+.list-text{
+  padding:20px 0 20px 20px;
+}
+
+.list-text:nth-child(odd){
+  background-color:silver;
+}
+
+.color-list{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  width:960px;
+  margin:0 auto;
+}
+
+.color{
+  background-color:yellow;
+  width:30%;
+  height:200px;
+  margin-right:5%;
+  margin-bottom:40px;
+}
